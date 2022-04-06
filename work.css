@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    top: 0px;
+}
+
+.header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 254, 253);
+}
+
+.main{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 1600px;
+    background-color: rgb(255, 254, 253);
+}
+
+.footer{
+    position: absolute;
+    top: 2060px;
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.footer1{
+    position: absolute;
+    top: 1660px;
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.header-logo{
+    /* font-family:'Caveat',cursive ; */
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.header-logo a{
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-list{
+    position: fixed;
+    /* background-color: lightcyan; */
+    top: 20px;
+    right: 20px;
+}
+
+.header li{
+    list-style: none;
+    float: right;
+    padding: 10px 10px;
+    margin-top: 0px;
+}
+
+.header-list a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    /* letter-spacing: 0.05em; */
+    color: black;
+}
+
+.header ul{
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.mywork1{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.mywork1 p{
+    margin-top: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.work1-title{
+    position: absolute;
+    height: 400px;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.work1-title h1{
+    margin-top: 150px;
+}
+
+.work1-url{
+    position: absolute;
+    height: 400px;
+    top: 800px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.work1-img-wrap{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+}
+.work1-img-wrap img{
+    height: 400px;
+    width: 100%;
+}
+
+.work1-url-wrap{
+    position: absolute;
+    /* height: 200px; */
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+.work1-url-wrap a{
+    font-size: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.work1-concept{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 1200px;
+    text-align: center;
+}
+
+.work1-concept h1{
+    margin-top: 100px;
+}
+
+
+.mywork2{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.mywork2 p{
+    margin-top: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.work2-title{
+    position: absolute;
+    height: 400px;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.work2-title h1{
+    margin-top: 150px;
+}
+
+.work2-img-wrap2{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    top: 800px;
+}
+
+.work2-img-wrap2 img{
+    height: 650px;
+    margin-left: 150px;
+}
+
+.work2-img-wrap3{
+    position: absolute;
+    height: 700px;
+    top: 800px;
+    width: 100%;
+}
+
+.work2-img-wrap3 img{
+    position: absolute;
+    right: 0px;
+    height: 450px;
+    margin: 240px 150px 0px 0px;
+}
+
+.work2-concept{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 1600px;
+    text-align: center;
+}
