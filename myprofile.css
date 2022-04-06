@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    top: 0px;
+}
+
+.header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 254, 253);
+}
+
+.main{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 1600px;
+    background-color: rgb(255, 254, 253);
+}
+
+.footer{
+    position: absolute;
+    top: 1760px;
+    width: 100%;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.header-logo{
+    /* font-family:'Caveat',cursive ; */
+    /* font-family: 'Ubuntu Mono', monospace; */
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.header-logo a{
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-list{
+    position: fixed;
+    /* background-color: lightcyan; */
+    top: 20px;
+    right: 20px;
+}
+
+.header li{
+    list-style: none;
+    float: right;
+    padding: 10px 10px;
+    margin-top: 0px;
+}
+
+.header-list a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    /* letter-spacing: 0.05em; */
+    color: black;
+}
+
+.header ul{
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.myprofile{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+.myprofile p{
+    margin-top: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.jibun{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin-top: 400px;
+    /* background-color: rgba(189, 171, 171, 0.61); */
+}
+
+.jibun-text{
+    position: absolute;
+    width: 100%;
+    margin-top: 127px;
+    text-align: center;
+}
+.jibun p{
+    /* font-family:  ; */
+    /* font-family: 'Kiwi Maru', serif; */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+}
+
+.jibun-img-wrap{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.jibun img{
+    height: 250px;
+}
+
+.box{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    margin-top: 110px;
+    background-color: lightgrey;
+}
+
+
+.trip{
+    position: absolute;
+    top: 800px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+}
+
+.trip-text{
+    height: 50px;
+    width: 100%;
+}
+.trip-text h1{
+    margin: 30px 0px 0px 0px;
+}
+.trip-text p{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 254, 253);
+}
+
+
+.taiwan-img-wrap{
+    width: 25%;
+    height: 400px;
+    display: inline-block;
+}
+.taiwan-img-wrap img{
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.taiwan-img-wrap img:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+.korea-img-wrap{
+    width: 25%;
+    height: 400px;
+    display: inline-block;
+}
+.korea-img-wrap img{
+    width: 80%;
+    border-radius: 10px;
+}
+.korea-img-wrap img:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+.thai-img-wrap{
+    width: 25%;
+    height: 400px;
+    display: inline-block;
+}
+.thai-img-wrap img{
+    width: 80%;
+    border-radius: 10px;
+}
+.thai-img-wrap img:hover{
+    transform: scale(1.5,1.5);
+}
+
+.syumi{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 1300px;
+}
+.syumi-text{
+    position: absolute;
+    margin: 150px 0px 0px 50px;
+
+}
+.syumi-text p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(179, 175, 175);
+}
+.syumi-img-wrap{
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+.syumi-img-wrap img{
+    height: 350px;
+    /* width: 50%; */
+}
+
+.gakureki{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 1300px;
+    /* background-color: whitesmoke; */
+}
+
+.gakureki-text{
+    position: absolute;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.gakureki h1{
+    text-align: center;
+    font-size: 25px;
+}
+.gakureki p{
+    text-align: center;
+    font-size: 20px;
+}
